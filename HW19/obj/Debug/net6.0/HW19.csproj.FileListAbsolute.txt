@@ -1,0 +1,15 @@
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/HW19
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/HW19.deps.json
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/HW19.runtimeconfig.json
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/HW19.dll
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/ref/HW19.dll
+/Users/arturgaliev/Desktop/SM/HW19/bin/Debug/net6.0/HW19.pdb
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.csproj.AssemblyReference.cache
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.AssemblyInfoInputs.cache
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.AssemblyInfo.cs
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.csproj.CoreCompileInputs.cache
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.dll
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/ref/HW19.dll
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.pdb
+/Users/arturgaliev/Desktop/SM/HW19/obj/Debug/net6.0/HW19.genruntimeconfig.cache
