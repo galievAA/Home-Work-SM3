@@ -1,14 +1,32 @@
 ﻿// Задача 29: Напишите программу, которая задаёт 
 // массив из 8 элементов и выводит их на экран.
+// способ 1
 
-Console.WriteLine("Задайте массив из 8 элементов ");
-int i = 0;
-int[] arr = new int [8];
 
-for(i = 0;i < 8;i++)
+int[] array = new int[8];
+for (int i = 0; i < array.Length; i++)
 {
-    Console.Write(arr[i]);
+    array[i] = new Random().Next(0,9);
+    Console.WriteLine(array[i] + " ");
 }
+for (int i = 0; i < array.Length; i++) 
+{
+    if (array[i] % 2 != 0)
+{
+    array[i] = 0;
+    Console.WriteLine(array[i] + " ");
+}
+}
+
+// Способ 2
+// Console.WriteLine("Задайте массив из 8 элементов ");
+
+// int[] arr = new int [8];
+
+// for(i = 0;i < arr.Length;i++)
+// {
+//     arr[i] = new Random().Next(0,9);
+// }
 
 // Console.WriteLine("Задайте массив из 8 элементов ");
 
