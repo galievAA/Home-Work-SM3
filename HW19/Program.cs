@@ -7,7 +7,7 @@
 
 
 Console.WriteLine("Введите пятизначное число: ");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 
 void N (string number)
 {
