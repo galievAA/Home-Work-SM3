@@ -20,7 +20,7 @@ int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
 int[] arr = FillArrayWithRandomNumbers(10, -10, 10);
 Console.WriteLine(string.Join(", ", arr)); // выводим исходный массив
 
-System.Console.WriteLine("Какое число вы хотите найти в массиве? ");
+Console.WriteLine("Какое число вы хотите найти в массиве? ");
 int number = Convert.ToInt32(Console.ReadLine());
 bool result = IsNumberInArray(arr, number);
 if(result == true)
