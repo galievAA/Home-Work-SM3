@@ -4,7 +4,7 @@
 // 3; массив [6, 7, 19, 345, 3] -> да
 // Выводить сообщение "да" или "нет" ТОЛЬКО ОДИН РАЗ
 
-
+// метод возвращает массив на size  элементов
 int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
 //                                 10         -10             10
 {
