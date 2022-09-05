@@ -11,7 +11,7 @@ int m = Convert.ToInt32(Console.ReadLine()); /// колличество стро
 Console.WriteLine("Введите n");
 int n = Convert.ToInt32(Console.ReadLine()); /// количество столбцов
 double[,] array = new double[m, n];
-double[,]ourMatrix = GetMatrix(m, n, -10, 10);
+double[,]ourMatrix = GetMatrix(m, n, -100, 100);
 PrinMatrix(ourMatrix);
 
 double[,] GetMatrix(int rowsCount, int columsCount,int lefatRange, int rightRange)
