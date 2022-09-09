@@ -1,7 +1,7 @@
 ﻿// Задача 53: Задайте двумерный массив. 
 // Напишите программу, которая поменяет местами первую и последнюю строку массива.
 
-int[,] GetMatrix(int rowsCount, int columsCount,int lefatRange, int rightRange)
+int[,] GetMatrix(int rowsCount, int columsCount,int leftRange, int rightRange)
 {
     int[,] matrix = new int[rowsCount, columsCount];
 
@@ -15,7 +15,7 @@ int[,] GetMatrix(int rowsCount, int columsCount,int lefatRange, int rightRange)
     }
     return matrix; 
 }
-void PrinMatrix(int[,] matrix)
+void PrintMatrix(int[,] matrix)
 {
     for(int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -33,7 +33,7 @@ void SwapFirstAndLastRowa(int[,] matrix)
     {
         int temp = matrix[0, i];
         matrix[0, i] = matrix[matrix.GetLength(0) - 1, i];
-        matrix[matrix.GetLength(0) - 1, i]= temp;
+        matrix[matrix.GetLength(0) - 1, i] = temp;
     }
 }
 
